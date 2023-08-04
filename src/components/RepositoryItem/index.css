@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.list_item_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  margin: 8px;
+  justify-content: center;
+  width: 210px;
+  min-width: 210px;
+
+  padding: 10px;
+  background-color: #f8f8ff;
+}
+.image1 {
+  height: 55px;
+  width: 55px;
+}
+.heading {
+  font-size: 25px;
+  font-family: 'roboto';
+  font-weight: 400;
+  color: #e73959;
+}
+.in_between {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image_2 {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+.each_desc {
+  font-size: 15px;
+  font-family: 'roboto';
+  color: #1e293b;
+  margin-left: 5px;
+}
